@@ -1,0 +1,134 @@
+/* Reset some default styling */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styling to the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style the side navigation bar */
+.side-nav {
+    width: 300px;
+    background-color: #9a9393;
+    height: 100vh;  
+    overflow-y: auto;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+}
+
+/* Style the navigation links */
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+    direction: rtl;
+    width: auto;
+}
+
+.side-nav li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.side-nav a {
+    color: #ffffff;
+    font-weight: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.side-nav li :hover{
+    color: gold;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row-reverse;
+}
+
+main{
+    width: 100%;
+    padding: 12px;
+    white-space: pre-line;
+    direction: rtl;
+    font-size: 22px;
+}
+
+#signup {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+#signup h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#signup form {
+    display: grid;
+    gap: 0;
+    
+
+   
+}
+
+#signup label {
+    font-size: 1rem;
+    color: #333;
+    
+    
+}
+
+#signup input[type="text"],
+#signup input[type="tel"],
+#signup input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0;
+    
+}
+
+#signup input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}
+
+#signup input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+
+.about{
+    font-size: 18px;
+    max-width: 500px;
+    margin-right: 100px;
+    margin-top: 200px;
+    
+}
+
+.this{
+    font-size: 18px;
+
+    margin-right: 100px;  
+}
