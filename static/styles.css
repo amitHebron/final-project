@@ -44,7 +44,7 @@ header {
 .side-nav li :hover{
     color: gold;
 }
-
+    
 .container{
     display: flex;
     /* justify-content: space-between; */
@@ -122,13 +122,18 @@ main{
 .about{
     font-size: 18px;
     max-width: 500px;
-    margin-right: 100px;
-    margin-top: 200px;
+    
     
 }
 
 .this{
     font-size: 18px;
-
-    margin-right: 100px;  
 }
+
+#sirton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    direction: rtl;
+}
+
