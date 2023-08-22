@@ -7,6 +7,10 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route('/docker')
+def docker():
+    return render_template("docker.html")
+
 #localhost:5000/user/amit
 @app.route('/user/<name>')
 #הסימני קריאה יהיו קבועים לפני השם שאני מקליד
