@@ -1,16 +1,31 @@
+
 {% extends "base.html" %}
 
 {% block content %}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>IFrame Example</title>
-</head>
-<body>
-    <h1>Embedded Web Page</h1>
-    <iframe src="https://drive.google.com/file/d/1gNobVqNmQKKMaA-YoC51h6WuVSc8_NFg/preview" width="640" height="480" allow="autoplay" width="640" height="480" allow="autoplay" width="800" height="600"></iframe>
-</body>
-</html>
 
+<div class="container">
+    <nav class="side-nav">
+        <ul>
+            <a href="/lesson4">    
+                שיעור 4 :עבודה עם  Docker image
+                <ul>
+                    <li> </li>
+                    <li>יצירת Docker image</li>
+                    <li>יסודות Dockerfile</li>
+                    <li> docker hub - דחיפת אימגים ל</li>
+                </ul>   
+            </a>
+            </li>
+        </ul>
+    </nav>
+    <div style="width: 100%;">
+        <h1>Embedded Web Page</h1>
+        <iframe src="https://drive.google.com/file/d/1gNobVqNmQKKMaA-YoC51h6WuVSc8_NFg/preview" width="640" height="480"
+            allow="autoplay" width="800" height="600"></iframe>
+    </div>
+</div>
 {% endblock %}
+
+
+
 

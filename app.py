@@ -32,46 +32,6 @@ def lesson5():
 def lesson6():
     return render_template("lesson6.html")
 
-@app.route('/lesson7')
-def lesson7():
-    return render_template("lesson7.html")
-
-@app.route('/lesson8')
-def lesson8():
-    return render_template("lesson8.html")
-
-@app.route('/lesson9')
-def lesson9():
-    return render_template("lesson9.html")
-
-@app.route('/lesson10')
-def lesson10():
-    return render_template("lesson10.html")
-
-@app.route('/lesson11')
-def lesson11():
-    return render_template("lesson11.html")
-
-@app.route('/lesson12')
-def lesson12():
-    return render_template("lesson12.html")
-
-@app.route('/lesson13')
-def lesson13():
-    return render_template("lesson13.html")
-
-@app.route('/lesson14')
-def lesson14():
-    return render_template("lesson14.html")
-
-@app.route('/lesson15')
-def lesson15():
-    return render_template("lesson15.html")
-
-@app.route('/lesson16')
-def lesson16():
-    return render_template("lesson16.html")
-
 
 #localhost:5000/user/amit
 @app.route('/user/<name>')

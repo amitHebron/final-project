@@ -1,18 +1,28 @@
+
 {% extends "base.html" %}
 
 {% block content %}
 
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>IFrame Example</title>
-</head>
-<body>
-    <h1>Embedded Web Page</h1>
-    <iframe src="https://drive.google.com/file/d/100Y6TD_jVWE8q3RWQW3dimKj4_nqAWMO/preview" width="640" height="480" allow="autoplay" width="640" height="480" allow="autoplay" width="800" height="600"></iframe>
-</body>
-</html>
-
+<div class="container">
+    <nav class="side-nav">
+        <ul>
+            <li> </li>
+            <a href="/lesson2">
+                שיעור 2 :יסודות דוקר - 29 דקות
+                <ul>
+                    <li> </li>
+                    <li>התקנת דוקר על המחשב</li>
+                    <li>המבנה של דוקר</li>
+                    <li>אימגים וקונטיינרים</li>
+                </ul>
+            </a>
+            </li>
+        </ul>
+    </nav>
+    <div style="width: 100%;">
+        <h1>Embedded Web Page</h1>
+        <iframe src="https://drive.google.com/file/d/100Y6TD_jVWE8q3RWQW3dimKj4_nqAWMO/preview" width="640" height="480"
+            allow="autoplay" width="800" height="600"></iframe>
+    </div>
+</div>
 {% endblock %}
-
