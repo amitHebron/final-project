@@ -1,17 +1,30 @@
+
 {% extends "base.html" %}
 
 {% block content %}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>IFrame Example</title>
-</head>
-<body>
-    <h1>Embedded Web Page</h1>
-    <iframe src="https://drive.google.com/file/d/1EjMrEiXqlhZUxZ_U7qVg2jDo2Y9VMhlr/preview" width="640" height="480" allow="autoplay" width="640" height="480" allow="autoplay" width="640" height="480" allow="autoplay" width="800" height="600"></iframe>
-</body>
-</html>
 
+<div class="container">
+    <nav class="side-nav">
+        <ul>
+            <a href="/lesson3">
+               
+                שיעור 3 :יצירה וניהול קונטיינרים - 16 דקות
+                <ul>
+                    <li> </li>
+                    <li>אפשרויות הרצת דוקר</li>
+                    <li>שמות לקונטיינרים</li>
+                    <li>מצב אינטרקטיבי לעומת מנותק</li>
+                    <li>ביצוע פקודות בקונטיינרים</li>
+                </ul>
+            </a>
+            </li>
+        </ul>
+    </nav>
+    <div style="width: 100%;">
+        <h1>Embedded Web Page</h1>
+        <iframe src="https://drive.google.com/file/d/1EjMrEiXqlhZUxZ_U7qVg2jDo2Y9VMhlr/preview" width="640" height="480"
+            allow="autoplay" width="800" height="600"></iframe>
+    </div>
+</div>
 {% endblock %}
-
 
